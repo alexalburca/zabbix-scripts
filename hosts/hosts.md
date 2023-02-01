@@ -1,0 +1,3 @@
+Este script usa a biblioteca request para enviar requisições HTTP para a API do Zabbix. Ele começa fazendo login no Zabbix usando o método user.login e, em seguida, usa o método host.get para recuperar uma lista de todos os hosts registrados. O script imprime o ID do host e o nome do host para cada host.
+
+Observação: você precisará substituir ZABBIX_URL, ZABBIX_USERNAME e ZABBIX_PASSWORD por seus próprios valores para a instalação do Zabbix.
