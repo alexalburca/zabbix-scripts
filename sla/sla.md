@@ -1,0 +1,3 @@
+Este script usa a biblioteca request em Python para fazer chamadas de API para o Zabbix. O script primeiro obtém o token de autenticação da API do Zabbix e depois o usa para inserir os dados do SLA no Zabbix.
+
+Nota: Substitua "http://zabbix.example.com/api_jsonrpc.php" pela URL real da sua API do Zabbix e substitua "zabbix_api_user" e "zabbix_api_password" pelo nome de usuário e senha reais do seu usuário da API do Zabbix.
